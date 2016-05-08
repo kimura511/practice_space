@@ -1,0 +1,5 @@
+今回はこちらのチュートリアル参照
+https://practice-space-kimura511.c9users.io/angular2-quickstart/index.html
+bashなどは業務で使わないので非常に勉強になりました。
+特にpackage.jsonを使って一括ダウンロードするのは今まで経験がほとんどなかったので新鮮でした。
+今回はjavascriptだったので次はtypescriptで挑戦しようと思ってます。
