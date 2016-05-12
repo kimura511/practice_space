@@ -2,3 +2,6 @@
 http://8th713.github.io/LearnAngularJS/#/
 
 バージョン古いので新しいバージョンにしても問題ないか確かめたいです
+
+以下開発で突っかかったメモ
+・bootstrapの前にjsを読ませないといけない
