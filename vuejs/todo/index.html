@@ -5,12 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    
-    <title>${title}</title>
-    <meta name="description" content="${description}" />
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
+    <meta name="description" content="${description}" />
     <script src='test.js'></script>
+    <title>todoリスト</title>
     <style>${style}</style>
     <script>${script}</script>
   </head>
@@ -20,7 +19,7 @@
       <ul>
         <li v-for="todo in todos">
           <span>{{ todo.text }}</span>
-          <button v-on:click="remove($index)">x</button>
+          <a class="btn btn-primary" v-on:click="remove($index)">x</a>
         </li>
       </ul>
     </div>

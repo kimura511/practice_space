@@ -1,0 +1,4 @@
+こちらをもとに作成
+http://jp.vuejs.org/examples/firebase.html
+
+Firebaseについては調査が必要

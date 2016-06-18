@@ -1,3 +1,17 @@
 こちらを参考に作成
 
 http://phiary.me/vue-js-tutorial-try/
+
+
+ついでなので、bootstrapを使用
+カードレイアウト使って、
+http://v4-alpha.getbootstrap.com/components/card/
+
+簡易日記システムが楽しそう。
+左手に日付入力欄とメモ
+右手に記述内容をカード形式で表示
+
+左右はレスポンシブで対応
+
+この辺のテンプレ使えないかな？
+http://v4-alpha.getbootstrap.com/examples/

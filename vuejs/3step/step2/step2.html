@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>step2</title>
+</head>
+<body>
+<!--
+spanにv-text="message"を設定することで、dataのmessageをテキストにバインド。
+v-on="click: magnify"で、クリック時にmethodsで定義したmagnifyが呼び出されるようバインド。
+-->
+<div id="todo">
+    <h1>My Todos</h1>
+    <div v-repeat="t : todos | orderBy 'isDone'">
+        <input type="checkbox" v-model="t.isDone" />
+        {{$index}}:{{t.title}}
+    </div>
+    <input type="button" v-on="click: addTodo" value="add todo" />
+    <div>
+        left {{lefts}} tasks.
+    </div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/0.11.1/vue.js"></script>
+<script type="text/javascript" src="step2.js"></script>
+</body>
+</html>

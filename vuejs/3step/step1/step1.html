@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>step1</title>
+</head>
+<body>
+<!--
+spanにv-text="message"を設定することで、dataのmessageをテキストにバインド。
+v-on="click: magnify"で、クリック時にmethodsで定義したmagnifyが呼び出されるようバインド。
+-->
+<div id="simple">
+    <span v-text="message" v-on="click: magnify" v-attr="style:font"></span>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.js"></script>
+<script type="text/javascript" src="step1.js"></script>
+</body>
+</html>

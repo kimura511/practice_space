@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>step3</title>
+</head>
+<body>
+<!--
+spanにv-text="message"を設定することで、dataのmessageをテキストにバインド。
+v-on="click: magnify"で、クリック時にmethodsで定義したmagnifyが呼び出されるようバインド。
+-->
+<div id="app">
+    <header-template></header-template>
+    <div v-repeat="u : user" v-component="item-template" v-with="u">
+</div>
+
+<script id="headerTemplate" type="text/template">
+    <h3 v-on="click:hello">My Todo</h3>
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/0.10.0/vue.js"></script>
+<script type="text/javascript" src="step3.js"></script>
+</body>
+</html>

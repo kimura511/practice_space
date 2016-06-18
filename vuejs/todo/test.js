@@ -4,11 +4,12 @@
 
 window.onload = function() {
   new Vue({
+    title:'test',
     el: '#app',
     data: {
       input: '',
       todos: [
-        { text: 'Add some todos' }
+        { text: 'Please input text and enter comand.Add some todos' }
       ]
     },
     methods: {
